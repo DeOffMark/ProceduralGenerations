@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://TileWFC.tres" type="TileSet" id=1]
+[ext_resource path="res://TileWFC.gd" type="Script" id=2]
+
+[node name="TileWFC" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+
+[node name="Button" type="Button" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 273.0
+margin_top = 605.0
+margin_right = 344.0
+margin_bottom = 625.0
+text = "Generate"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
