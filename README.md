@@ -7,6 +7,7 @@ This algortithms uses breadth first search across the grid, choosing tile with l
 Possibly this could lead to very interesting usages of this algorithm, not just making tileset level. As a thought, imagine a game where you could have giant skeleton boss,
 but the skeleton could be procedurally generated using such collapse algorithm, making a weird monstrousity every iteration. This could be any other "structured by rules" entities,
 such as tanks, towers, geographic landscape etc. Hopefully this knowledge will be used in my future projects.
+
 ![image](https://user-images.githubusercontent.com/87082234/201787261-eab49841-febe-4f60-884a-51a00548367b.png)
 
 
